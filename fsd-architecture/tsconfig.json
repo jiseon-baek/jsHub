@@ -6,7 +6,8 @@
       "@app/*": ["app/*"],
       "@shared/*": ["shared/*"],
       "@features/*": ["features/*"]
-    }
+    },
+    "types": ["vite/client", "node"]
   },
   "references": [
     { "path": "./tsconfig.app.json" },
